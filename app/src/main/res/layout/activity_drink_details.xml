@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#73423F"
+    tools:context=".view.DrinkDetailsActivity">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/ing_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iba_view"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/Ing1_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41000003" />
+
+    <TextView
+        android:id="@+id/Ing2_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@+id/Ing1_view"
+        app:layout_constraintStart_toStartOf="@+id/Ing1_view"
+        app:layout_constraintTop_toBottomOf="@+id/Ing1_view" />
+
+    <TextView
+        android:id="@+id/Ing3_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@+id/Ing2_view"
+        app:layout_constraintStart_toStartOf="@+id/Ing2_view"
+        app:layout_constraintTop_toBottomOf="@+id/Ing2_view" />
+
+    <TextView
+        android:id="@+id/Ing4_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@+id/Ing3_view"
+        app:layout_constraintStart_toStartOf="@+id/Ing3_view"
+        app:layout_constraintTop_toBottomOf="@+id/Ing3_view" />
+
+    <TextView
+        android:id="@+id/Ing5_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@+id/Ing4_view"
+        app:layout_constraintStart_toStartOf="@+id/Ing4_view"
+        app:layout_constraintTop_toBottomOf="@+id/Ing4_view" />
+
+    <TextView
+        android:id="@+id/Ing6_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@+id/Ing5_view"
+        app:layout_constraintStart_toStartOf="@+id/Ing5_view"
+        app:layout_constraintTop_toBottomOf="@+id/Ing5_view" />
+
+    <TextView
+        android:id="@+id/Ing7_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@+id/Ing6_view"
+        app:layout_constraintStart_toStartOf="@+id/Ing6_view"
+        app:layout_constraintTop_toBottomOf="@+id/Ing6_view" />
+
+    <TextView
+        android:id="@+id/instruct_view"
+        android:layout_width="352dp"
+        android:layout_height="140dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="388dp"
+        android:layout_height="59dp"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cate_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="308dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_view" />
+
+    <TextView
+        android:id="@+id/glass_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/cate_view"
+        app:layout_constraintStart_toStartOf="@+id/cate_view"
+        app:layout_constraintTop_toBottomOf="@+id/cate_view" />
+
+    <TextView
+        android:id="@+id/iba_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/glass_view"
+        app:layout_constraintStart_toStartOf="@+id/glass_view"
+        app:layout_constraintTop_toBottomOf="@+id/glass_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
